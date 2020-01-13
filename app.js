@@ -18,7 +18,7 @@ function question1(){
   }}
 
 question1();
-//console.log(childhood);
+
 function question2(){
   var job = prompt('Have I worked in tech before?');
   if(job.toUpperCase() === 'NO'){
@@ -29,7 +29,7 @@ function question2(){
   }}
 
 question2();
-//console.log(job);
+
 
 function question3(){
   var age = prompt('Am I 26 years of age?');
@@ -41,7 +41,7 @@ function question3(){
   }}
 
 question3();
-//console.log(age);
+
 
 function question4(){
   var school = prompt('Did I attend College?');
@@ -54,7 +54,7 @@ function question4(){
 
 question4();
 
-//console.log(school);
+
 
 function question5(){
   var employer = prompt('Is my ideal employer Lockheed?');
@@ -66,7 +66,7 @@ function question5(){
   }}
 
 question5();
-//console.log(employer);
+
 
 function question6(){
   var guess = prompt('Guess a number between 1 and 10');
@@ -87,7 +87,7 @@ function question6(){
 }
 
 question6();
-//var bigGuess = prompt('Can you guess one of my favorite sports?');
+
 
 function question7(){
   var favSport = ['football', 'lacrosse', 'mma', 'soccer', 'boxing'];
@@ -104,6 +104,6 @@ function question7(){
   }}
 
 question7();
-// Morgan helped me immensely on this.
+
 
 alert('You got ' + correct + '/7');
